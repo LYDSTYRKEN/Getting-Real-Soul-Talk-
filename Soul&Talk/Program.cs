@@ -2,8 +2,9 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) 
     {
-        Console.WriteLine("Hello, World!");
+        var foo = new Income(33, Income.TaskType.Online);
+        Console.WriteLine(foo);
     }
 }

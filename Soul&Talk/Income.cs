@@ -8,19 +8,32 @@ namespace Soul_Talk;
 
 public class Income
 {
-    public string AmountOfHours { get; set; }
-    public string AssignmentType { get; set; }
-    public List<Income> Incomes { get; set; } = new List<Income>();
+    public readonly int HoursWorked;
+    //public List<AssignmentType> assignmentType;
+    //public List<Income> Incomes { get; set; } = new List<Income>();
+    public readonly TaskType task;
+    public readonly int salary;
 
-    public Income(String amountOfHours, string assignmentType)
+    public enum TaskType
     {
-        this.AmountOfHours = amountOfHours;
-        this.AssignmentType = assignmentType;
+        Online = 80,
+        Physical = 100,
+        Phone = 120
     }
-    //public double CalculateSalary()
+
+    public Income(int hoursWorked, TaskType task)
+    {
+        this.HoursWorked = hoursWorked;
+        this.task = task;
+        this.salary = hoursWorked * (int)task; // TODO: Find out if casting an Enum to int is correct solution
+    }
+    public double CalculateSalary()
+    {
+        throw new NotImplementedException();
+    }
 
     public override string ToString()
     {
-        return $"Amount of hours: {AmountOfHours}, Assignment type: {AssignmentType}, Salary:___"; /* {CalculateSalary()}"*/
+        return $"hoursWorked: {this.HoursWorked}, Task: {this.task}";
     }
 }

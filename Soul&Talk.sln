@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soul&Talk", "Soul&Talk\Soul&Talk.csproj", "{41A4EA4A-83A2-43EC-87EA-1B1487E9F896}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoulAndTalkWindow", "SoulAndTalkWindow\SoulAndTalkWindow.csproj", "{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,23 @@ Global
 		{41A4EA4A-83A2-43EC-87EA-1B1487E9F896}.Release|x64.Build.0 = Release|Any CPU
 		{41A4EA4A-83A2-43EC-87EA-1B1487E9F896}.Release|x86.ActiveCfg = Release|Any CPU
 		{41A4EA4A-83A2-43EC-87EA-1B1487E9F896}.Release|x86.Build.0 = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|x64.Build.0 = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{66CBE3DE-69B0-40FF-96D5-3BDBE9D29BAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B6ED4FA-AB2B-4825-B025-60150742FD5F}
 	EndGlobalSection
 EndGlobal

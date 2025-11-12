@@ -8,5 +8,11 @@ namespace Soul_Talk;
 
 public class Customer
 {
-    
+    public string Name { get; set; }
+    public readonly int Id;
+    //Tilføj kundetype
+
+
+
+
 }

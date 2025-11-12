@@ -14,12 +14,22 @@ public class Income
     public readonly TaskType task;
     public readonly int salary;
 
+    public enum CostumerType
+    {
+        OffenligInstitution = 1,
+        PrivatInstitution = 2,
+        Privat = 3,
+    }
     public enum TaskType
     {
-        Online = 80,
-        Physical = 100,
-        Phone = 120
+        OffenligInstitution_Fysisk = 550,
+        OffenligInstitution_Ikke_Fysisk = 550,
+        PrivatInstitution_Fysisk = 450,
+        PrivatInstitution_Ikke_Fysisk = 350,
+        Privat_Fysisk = 450,
+        Privat_IkkeFysisk = 350,
     }
+
 
     public Income(int hoursWorked, TaskType task)
     {
@@ -28,7 +38,7 @@ public class Income
         this.salary = hoursWorked * (int)task; // TODO: Find out if casting an Enum to int is correct solution
     }
     public double CalculateSalary()
-    {
+    {   
         throw new NotImplementedException();
     }
 
